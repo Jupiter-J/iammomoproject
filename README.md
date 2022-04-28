@@ -36,110 +36,6 @@ https://iammomoproject.netlify.app/
 
 ---
 
-# Front-End(React)
-## Usage(자세한 실행 방법)
-
-1. git clone
-
-```
-https://github.com/Sideproject-momoProject/iammomoproject.git
-```
-
-2. iammomoproject 폴더를 인터프린터나 컴파일러로 열기
-3. client 폴더로 이동 및 필요한 라이브러리 설치
-
-```
-cd client
-npm install
-```
-
-4. 실행
-
-```
-npm run start
-```
-
-*사용 기술*
-
-- react.js
-- styled-components
-- axios
-- swiper.js
-
-## 구현 페이지 및 기능
-### 회원가입/로그인
-![로그인:회원가입](https://user-images.githubusercontent.com/93017923/165521424-e1b6a034-a5ba-4a08-b34c-6d301935bd66.gif)
-- 이름/이메일/비밀번호/비밀번호 확인
-- 이메일 형식 유효성 검사
-- 비밀번호 형식 유효성 검사
-- 비밀번호 재확인
-- 약관 동의 체크리스트
-- 이메일/비밀번호 로그인
-
-### 로그아웃
-![로그아웃](https://user-images.githubusercontent.com/93017923/165523959-8979dcae-013c-4da1-90a1-c4c31361eb12.gif)
-
-### 랜딩 페이지(메인 페이지)
-처음 접속하면 보이게 되는 페이지. 모모 프로젝트에 대한 전반적인 소개와 글 작성이 이루어짐.
-
-![미로그인 랜딩페이지](https://user-images.githubusercontent.com/93017923/165521977-b8fb69e4-334a-4f9f-b7e2-e0976165f0e8.gif)
-- 카드 슬라이드
-- 카드 선택 시 질문 무작위 출력
-- 영역 외 클릭 시 닫기
-- 카드 닫기 및 글 저장 재확인
-- 글 작성
-
-|로그인|미로그인|글 작성|
-|---|---|---|
-|![로그인시 카드선택](https://user-images.githubusercontent.com/93017923/165521948-504aef2c-dec7-449c-a28e-b75ac7d18eb4.gif)|![미로그인 카드선택](https://user-images.githubusercontent.com/93017923/165522417-287beb33-d973-48dd-a11f-fdf600950b38.gif)|![글작성](https://user-images.githubusercontent.com/93017923/165524139-c096497b-398f-4792-b97b-e4e719586096.gif)|
-|카드 이하 전문 공백|모모 프로젝트 설명글 및 카드 선택 안내|입력창이 공란인 경우 버튼 비활성화|
-|카드 선택 후 글 작성 활성화|카드 선택 후 글 작성란 클릭 시, 로그인 안내|글 작성 후 버튼 변경|
-
-### MOMO 되기 페이지
-각 페이지 개요를 설명하고 링크 제시.
-
-<img src="https://user-images.githubusercontent.com/93017923/165525006-d4813af0-3591-4776-b36b-17daac6c2649.png" width="380" />
-
-*MOMO 규칙*
-
-<img src="https://user-images.githubusercontent.com/93017923/165525125-bea211c8-e637-4b87-93cd-270687662b03.png" width="380" />
-
-### 나의 MOMO 페이지
-본인관련 정보가 표시되는 페이지. 본인이 질문을 만들 수 있으며, 내가 작성한 글에 대해 보여줌.
-
-|질문 작성|글 수정|글 삭제|
-|---|---|---|
-|![질문만들기](https://user-images.githubusercontent.com/93017923/165523051-05ecaec4-6031-46f8-97bc-844e9cdffc3e.gif)|![나의 모모:수정](https://user-images.githubusercontent.com/93017923/165523079-cd18d6f4-c92b-413d-aece-3bf9419b0938.gif)|![삭제하기](https://user-images.githubusercontent.com/93017923/165523455-56a9f3c4-7b87-4410-bff4-c792ad791fa6.gif)|
-- 내가 작성한 글 목록 보기
-- 내가 작성한 글의 질문 목록 제시
-- 질문 선택 시, 질문과 일치하는 내 글 목록 출력
-- 내가 작성한 글 상세보기
-- 내가 작성한 글 수정
-- 내가 작성한 글 삭제
-- 질문 만들기
-
-### MOMO 글모음
-다른 모든 모모가 작성한 글의 목록이 제시되는 페이지
-
-![모모 글모음](https://user-images.githubusercontent.com/93017923/165523324-d11b8a3c-36de-4030-af46-11714d7d76d1.gif)
-- 당일에 작성된 글 목록 출력
-- 모든 글 목록 출력
-- 모든 질문 목록 제시
-- 선택한 질문에 해당하는 글 목록 출력
-- 글 선택 시, 자세히 보기 모달창
-
-### Aboutus 페이지
-모모 프로젝트 기획팀 소개 페이지
-
-<img src="https://user-images.githubusercontent.com/93017923/165525869-6c733f5a-31cb-4097-985d-c3d83fd955f1.png" width="380" />
-
-### Contactus 페이지
-건의사항, 오류 피드백 작성 페이지
-
-![컨택](https://user-images.githubusercontent.com/93017923/165523636-64f9b1cb-60d4-43db-af18-0aca6cdf637d.gif)
-- 입력창 유효성 검사
-- 미입력 시 버튼 비활성화
-
 ---
 
 ## Back-end(Java, SpringBoot)
@@ -260,4 +156,110 @@ npm run start
 * 시큐리티를 적용한 페이지와 메인 페이지를 병합 
 * ReactApp과 서버 최종 테스트 
 
+---
+
+
+# Front-End(React)
+## Usage(자세한 실행 방법)
+
+1. git clone
+
+```
+https://github.com/Sideproject-momoProject/iammomoproject.git
+```
+
+2. iammomoproject 폴더를 인터프린터나 컴파일러로 열기
+3. client 폴더로 이동 및 필요한 라이브러리 설치
+
+```
+cd client
+npm install
+```
+
+4. 실행
+
+```
+npm run start
+```
+
+*사용 기술*
+
+- react.js
+- styled-components
+- axios
+- swiper.js
+
+## 구현 페이지 및 기능
+### 회원가입/로그인
+![로그인:회원가입](https://user-images.githubusercontent.com/93017923/165521424-e1b6a034-a5ba-4a08-b34c-6d301935bd66.gif)
+- 이름/이메일/비밀번호/비밀번호 확인
+- 이메일 형식 유효성 검사
+- 비밀번호 형식 유효성 검사
+- 비밀번호 재확인
+- 약관 동의 체크리스트
+- 이메일/비밀번호 로그인
+
+### 로그아웃
+![로그아웃](https://user-images.githubusercontent.com/93017923/165523959-8979dcae-013c-4da1-90a1-c4c31361eb12.gif)
+
+### 랜딩 페이지(메인 페이지)
+처음 접속하면 보이게 되는 페이지. 모모 프로젝트에 대한 전반적인 소개와 글 작성이 이루어짐.
+
+![미로그인 랜딩페이지](https://user-images.githubusercontent.com/93017923/165521977-b8fb69e4-334a-4f9f-b7e2-e0976165f0e8.gif)
+- 카드 슬라이드
+- 카드 선택 시 질문 무작위 출력
+- 영역 외 클릭 시 닫기
+- 카드 닫기 및 글 저장 재확인
+- 글 작성
+
+|로그인|미로그인|글 작성|
+|---|---|---|
+|![로그인시 카드선택](https://user-images.githubusercontent.com/93017923/165521948-504aef2c-dec7-449c-a28e-b75ac7d18eb4.gif)|![미로그인 카드선택](https://user-images.githubusercontent.com/93017923/165522417-287beb33-d973-48dd-a11f-fdf600950b38.gif)|![글작성](https://user-images.githubusercontent.com/93017923/165524139-c096497b-398f-4792-b97b-e4e719586096.gif)|
+|카드 이하 전문 공백|모모 프로젝트 설명글 및 카드 선택 안내|입력창이 공란인 경우 버튼 비활성화|
+|카드 선택 후 글 작성 활성화|카드 선택 후 글 작성란 클릭 시, 로그인 안내|글 작성 후 버튼 변경|
+
+### MOMO 되기 페이지
+각 페이지 개요를 설명하고 링크 제시.
+
+<img src="https://user-images.githubusercontent.com/93017923/165525006-d4813af0-3591-4776-b36b-17daac6c2649.png" width="380" />
+
+*MOMO 규칙*
+
+<img src="https://user-images.githubusercontent.com/93017923/165525125-bea211c8-e637-4b87-93cd-270687662b03.png" width="380" />
+
+### 나의 MOMO 페이지
+본인관련 정보가 표시되는 페이지. 본인이 질문을 만들 수 있으며, 내가 작성한 글에 대해 보여줌.
+
+|질문 작성|글 수정|글 삭제|
+|---|---|---|
+|![질문만들기](https://user-images.githubusercontent.com/93017923/165523051-05ecaec4-6031-46f8-97bc-844e9cdffc3e.gif)|![나의 모모:수정](https://user-images.githubusercontent.com/93017923/165523079-cd18d6f4-c92b-413d-aece-3bf9419b0938.gif)|![삭제하기](https://user-images.githubusercontent.com/93017923/165523455-56a9f3c4-7b87-4410-bff4-c792ad791fa6.gif)|
+- 내가 작성한 글 목록 보기
+- 내가 작성한 글의 질문 목록 제시
+- 질문 선택 시, 질문과 일치하는 내 글 목록 출력
+- 내가 작성한 글 상세보기
+- 내가 작성한 글 수정
+- 내가 작성한 글 삭제
+- 질문 만들기
+
+### MOMO 글모음
+다른 모든 모모가 작성한 글의 목록이 제시되는 페이지
+
+![모모 글모음](https://user-images.githubusercontent.com/93017923/165523324-d11b8a3c-36de-4030-af46-11714d7d76d1.gif)
+- 당일에 작성된 글 목록 출력
+- 모든 글 목록 출력
+- 모든 질문 목록 제시
+- 선택한 질문에 해당하는 글 목록 출력
+- 글 선택 시, 자세히 보기 모달창
+
+### Aboutus 페이지
+모모 프로젝트 기획팀 소개 페이지
+
+<img src="https://user-images.githubusercontent.com/93017923/165525869-6c733f5a-31cb-4097-985d-c3d83fd955f1.png" width="380" />
+
+### Contactus 페이지
+건의사항, 오류 피드백 작성 페이지
+
+![컨택](https://user-images.githubusercontent.com/93017923/165523636-64f9b1cb-60d4-43db-af18-0aca6cdf637d.gif)
+- 입력창 유효성 검사
+- 미입력 시 버튼 비활성화
 
