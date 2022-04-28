@@ -36,7 +36,6 @@ https://iammomoproject.netlify.app/
 
 ---
 
----
 
 ## Back-end(Java, SpringBoot)
 
@@ -156,8 +155,8 @@ https://iammomoproject.netlify.app/
 * 시큐리티를 적용한 페이지와 메인 페이지를 병합 
 * ReactApp과 서버 최종 테스트 
 
----
 
+---
 
 # Front-End(React)
 ## Usage(자세한 실행 방법)
