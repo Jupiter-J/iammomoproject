@@ -121,7 +121,7 @@ https://iammomoproject.netlify.app/
 * 프론트님과 API 구동 테스트 
 
 ### 2022-04-20 개발상황
-* CORS 에러 해결 
+* CORS 에러 해결 [상세내용](https://velog.io/@jupiter-j/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-CORS%EC%97%90%EB%9F%AC)
 * Topic Entity CreateAt 추가 (프론트님 요구사항) 
 * Topic CRUD 서버 업데이트
 
@@ -136,11 +136,11 @@ https://iammomoproject.netlify.app/
 * 로그인 API 테스트
 
 ### 2022-04-23 개발상황
-* 나의 게시글 확인 기능 API 생성
+* 나의 게시글 확인 기능 API 생성 [상세내용](https://velog.io/@jupiter-j/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-native-Query%EC%97%90%EB%9F%AC-No-converter-found-capable-of-converting-from-type)
 
 ### 2022-04-24 개발상황
 * swagger 명세서 업데이트
-* 데이터베이스 초기 데이터 삽입 (기획자님 요구사항)
+* 데이터베이스 초기 데이터 삽입 (기획자님 요구사항) [상세내용](https://velog.io/@jupiter-j/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EC%8B%A4%ED%96%89-%EC%8B%9C-Database-sql-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%82%BD%EC%9E%85)
 * JWT 토큰 로그인 회원가입 구현
 
 ### 2022-04-25 진행상황
