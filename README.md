@@ -14,6 +14,7 @@ IamMOMOproject
 
 <br>
 
+
 ### 배포 링크
 
 https://iammomoproject.netlify.app/
@@ -25,6 +26,7 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 
 <br>
 
+
 ## 2. Project Member
 * Planner : Team Iam ground 
 * Backend : 김남주, 신동금
@@ -33,11 +35,13 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 <br>
 
 
+
 ## 3. Project Architecture
 
 ![](/server/momo_arch.png)
 
 <br>
+
 
 ---
 
@@ -54,6 +58,7 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 
 <br>
 
+
 ### Function Implementation
 * 로그인, 회원가입
 * 게시글 주제 (Topic) CRUD
@@ -62,18 +67,22 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 
 <br>
 
+
+
 ### Swagger
 ![image](https://user-images.githubusercontent.com/73453283/165444788-2f5b7840-b4af-4ed1-be4d-7663ed5e1201.png)
 ![image](https://user-images.githubusercontent.com/73453283/165444889-f5607e87-eee8-44df-97c1-cd3936bd2de7.png)
 ![image](https://user-images.githubusercontent.com/73453283/165444933-79d1659d-5185-4523-a6e7-2f1bcf6298cd.png)
 
 
-### demo(시연화면)
+
+## demo(시연화면)
 
 ### 회원가입 & 로그인
 ![siginin](https://user-images.githubusercontent.com/73453283/165477392-e7c6d852-9dbd-49fd-9ac9-19ec251d4f61.gif)
 
 <br>
+
 
 ### 질문
 * 유저가 바로 이용가능 하도록 서버 실행시 sql로 질문 리스트 데이터 삽입
@@ -82,10 +91,12 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 
 <br>
 
+
 ### 질문에 대한 답변 작성  
 ![main2_write](https://user-images.githubusercontent.com/73453283/165477303-88a46a23-68e7-4a80-a46a-6208f1ef9709.gif)
 
 <br>
+
 
 ### 전체 질문 조회
 
@@ -94,17 +105,21 @@ https://github.com/Jupiter-J/RE_MoMoProject.git
 
 <br>
 
+
 ### 나의 페이지 
 ![main4_myQ](https://user-images.githubusercontent.com/73453283/165477350-a3a5ca98-7384-4e2b-ae1e-542e61752193.gif)
 
 
 <br>
 
+
 ### 내가 작성한 답변 수정 
 ![main5_edit](https://user-images.githubusercontent.com/73453283/165477364-0f78a9e9-b01d-4736-8a00-2fc937ed6e38.gif)
 
 
 <br>
+
+
 
 ### 내가 작성한 답변 조회 & 질문 생성
 * native 쿼리를 사용하여 작성한 답변 조회 가능
