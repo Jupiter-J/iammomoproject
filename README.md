@@ -20,7 +20,7 @@ IamMOMOproject
 https://iammomoproject.netlify.app/
 
 
-### 프로젝트 코드 수정 (server)
+### 프로젝트 코드 개선 (Back-End)
 https://github.com/Jupiter-J/RE_MoMoProject.git
 
 
